@@ -1,7 +1,12 @@
 CPSC 351
 Propject: Memory Management SImulation
 
-Members: Victoria Guzman - victoriaaguz@csu.fullerton.edu
+Members: 
+Victoria Guzman - victoriaaguz@csu.fullerton.edu
+Mark Ohlwine -  markohlwine@csu.fullerton.edu
+Adam Kaci - adamkaci3@csu.fullerton.edu
+
+
 
 Programming Lang: 
 The program was written in C++ 
@@ -41,6 +46,6 @@ Example Test:
 - Output: Check `out1.txt`, `out2.txt`, and `out3.txt` for detailed results.
 
 Special notes: 
-1. I included error handling to detect malformed input files.
+1. We included error handling to detect malformed input files.
 2. The program outputs detailed memory maps after each event.
 3. Average turnaround time is displayed at the end of each output file.

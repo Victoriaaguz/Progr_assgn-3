@@ -191,6 +191,7 @@ void simulateMemoryManagement(const std::string &inputFile, const std::string &o
 }
 
 int main() {
+    // reads in1.txt file and creates the output file to the size 
     simulateMemoryManagement("in1.txt", "out1.txt", 100);
     simulateMemoryManagement("in1.txt", "out2.txt", 200);
     simulateMemoryManagement("in1.txt", "out3.txt", 400);
