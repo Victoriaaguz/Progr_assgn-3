@@ -16,13 +16,13 @@ How to Execute the program:
 
 3. Compile the program using the following command:
 
-   'g++ -std=c++11 -o Mem-manager Mem-manager.cpp '
+   `g++ -std=c++11 -o Mem-manager Mem-manager.cpp`
 
 ![alt text](image.png)
 
 4. Run the program using:
 
-  ' ./Mem-manager '
+  ` ./Mem-manager `
 
 ![alt text](image-2.png)
 
