@@ -16,7 +16,7 @@ struct MemoryBlock {
     int start, end; //memory range 
     int processId; // -1 indicates a free block
 };
-
+// Victoria Guzman 
 class MemoryManager {
     int memorySize;
     int pageSize; 
@@ -86,7 +86,7 @@ public:
         }
     }
 };
-
+// Victoria Guzman
 void simulateMemoryManagement(const std::string &inputFile, const std::string &outputFile, int pageSize){
     int memorySize = 2000;
 
