@@ -62,6 +62,7 @@ public:
         }
         mergeFreeBlocks();
     }
+    // Adam Kaci
     void mergeFreeBlocks(){
         for (size_t i = 0; i < memoryMap.size() - 1; ){
             if (memoryMap[i].processId == -1 && memoryMap[i + 1].processId == -1){
@@ -190,6 +191,7 @@ void simulateMemoryManagement(const std::string &inputFile, const std::string &o
     }
 }
 
+// Adam Kaci
 int main() {
     // reads in1.txt file and creates the output file to the size 
     simulateMemoryManagement("in1.txt", "out1.txt", 100);
