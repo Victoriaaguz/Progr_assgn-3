@@ -4,6 +4,7 @@
 #include <queue>
 #include <iomanip> 
 
+//Mark Ohlwine
 struct Process {
     int id;
     int arrivalTime;
@@ -12,6 +13,7 @@ struct Process {
     std::vector<int> addressSpace;
 }; 
 
+//Mark Ohlwine
 struct MemoryBlock {
     int start, end; //memory range 
     int processId; // -1 indicates a free block
